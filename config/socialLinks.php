@@ -1,5 +1,5 @@
 <?php
-[
+return [
     [
         'text' => 'DC Facebook',
         'url' => '#',

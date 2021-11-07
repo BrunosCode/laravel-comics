@@ -84,34 +84,34 @@
   color: white;
 }
 
-.c-footerTop {
+.c-footer {
   background-image: url("../images/footer-bg.jpg");
   background-position: center;
   background-size: cover;
 }
-.c-footerTop__nav {
+.c-footer__nav {
   max-height: 400px;
   padding: 2rem 0;
 }
-.c-footerTop__list {
+.c-footer__list {
   margin-right: 2rem;
   margin-bottom: 0.75rem;
 }
-.c-footerTop__subtitle {
+.c-footer__subtitle {
   text-transform: uppercase;
   font-size: 1.25rem;
   font-weight: 700;
   color: white;
   margin-bottom: 0.75rem;
 }
-.c-footerTop__link {
+.c-footer__link {
   color: #959595;
   margin-bottom: 0.25rem;
 }
-.c-footerTop__link:hover {
+.c-footer__link:hover {
   color: white;
 }
-.c-footerTop__img {
+.c-footer__img {
   height: 400px;
   width: 50%;
   -o-object-fit: cover;

@@ -11,6 +11,7 @@
         <div class="c-main">
             @include('components.Hero')
             @include('components.Collection')
+            @include('components.ShopBanner')
         </div>
         @include('components.Footer')
     </body>
