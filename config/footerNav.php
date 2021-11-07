@@ -1,5 +1,5 @@
 <?php
-[
+return [
     'comicsLinks' => [
         'title' => 'DC Comics',
         'links' => [

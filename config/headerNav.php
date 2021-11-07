@@ -1,5 +1,5 @@
 <?php
-[
+return [
     [
         'text' => 'Characters',
         'url' => '#',
