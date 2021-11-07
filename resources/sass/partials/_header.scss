@@ -1,0 +1,28 @@
+.c-header {
+  &__logo {
+      height: 5rem;
+  }
+
+  &__nav {
+      height: 7rem;
+  }
+
+  &__link {
+      padding: 0 .5rem;
+      color: $gray-400;
+      font-weight: 700;
+      text-transform: uppercase;
+      display: inline-block;
+      line-height: 7rem;
+      
+      &.active {
+          color: $primary;
+          box-shadow: inset 0 -.3rem $primary;
+      }
+
+      &:hover {
+          background-color: $gray-300;
+          color: white;
+      }
+  }
+}
