@@ -9,8 +9,9 @@
     <body>
         @include('components.Header')
         <div class="c-main">
-            {{-- @include('components.Hero') --}}
+            @include('components.Hero')
+            @include('components.Collection')
         </div>
-        {{-- @include('components.Footer') --}}
+        @include('components.Footer')
     </body>
 </html>
