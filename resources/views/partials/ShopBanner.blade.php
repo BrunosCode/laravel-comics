@@ -4,10 +4,10 @@
           @foreach (config("shopLinks") as $link)    
           <li>
               <a href="{{ $link["url"] }}"
-              class="c-banner__link c-btn l-row">
+              class="c-banner__link c-btn l-col">
                   <img src="{{ asset("images/{$link['img']}") }}" alt="{{ $link["text"] }}
                   class="c-banner__icon">
-                  <span class="c-banner__text">{{ $link["text"] }}</span>
+                  <p class="c-banner__text">{{ $link["text"] }}</p>
               </a>
           </li>
           @endforeach

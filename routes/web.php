@@ -13,6 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get("/", function () {
+    return view("home");
+})->name("home");
+
+Route::get("/{id}", function ($id) {
+    $tbd = [
+        "comic" => config("comics")[$id]
+    ];
+
+    return view("comic", $tbd);
+
+})->where("id", "[0-9]+")->name("singol-comic");

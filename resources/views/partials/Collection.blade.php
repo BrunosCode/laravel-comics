@@ -2,9 +2,9 @@
   <h2 class="c-collection__title">Current Series</h2>
   <div class="c-collection__comics">
 
-    @foreach (config("comics") as $comic)
+    @foreach (config("comics") as $index => $comic)
     <div class="c-comic l-col">
-      <a href="#" class="c-btn">
+      <a href="{{ route("singol-comic", ["id" => $index]) }}" class="c-btn">
           <div class="c-comic__squaredCover">
               <img src="{{ $comic["thumb"] }}"
               alt={{ $comic["series"] }} class="c-comic__squaredImg">

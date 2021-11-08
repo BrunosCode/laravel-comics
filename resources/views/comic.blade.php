@@ -4,9 +4,8 @@
 
 @section("main")
 <main class="c-main">
-    @include('partials.Hero')
-    @include('partials.Collection')
-    @include('partials.ShopBanner')
+    @include("partials.Hero")
+    @dump($comic);
 </main>
 @endsection
         
