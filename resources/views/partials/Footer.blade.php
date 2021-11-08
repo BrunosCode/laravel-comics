@@ -16,5 +16,5 @@
       </nav>
       <img class="c-footer__img" src="{{ asset('/images/dc-logo-bg.png') }}" alt="">
   </div> 
-  @include('components.CtaBanner')
+  @include('partials.CtaBanner')
 </footer>
