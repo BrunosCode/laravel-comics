@@ -17,11 +17,19 @@ Route::get("/", function () {
     return view("home");
 })->name("home");
 
-Route::get("/{id}", function ($id) {
-    $tbd = [
-        "comic" => config("comics")[$id]
-    ];
+Route::get("/contact", function () {
+    return view("contact");
+})->name("contact");
 
-    return view("comic", $tbd);
+Route::get("/{id}", function ($id) {
+
+    $data = config("comics");
+    
+    if ($id > count($data)) {
+        abort("404");
+    }
+    $comic = $data[$id];
+
+    return view("comic", compact("comic"));
 
 })->where("id", "[0-9]+")->name("singol-comic");

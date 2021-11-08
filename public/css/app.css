@@ -5,7 +5,7 @@
 }
 
 .l-container {
-  max-width: 900px;
+  max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -122,7 +122,6 @@
   color: white;
 }
 .c-footer__img {
-  height: 400px;
   width: 50%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -221,7 +220,15 @@
   text-transform: uppercase;
 }
 .c-banner__icon {
-  height: 2rem;
+  height: 3rem;
   vertical-align: middle;
   margin-right: 0.5rem;
+}
+
+.c-contact {
+  padding: 2rem 0;
+  text-align: center;
+}
+.c-contact__text {
+  line-height: 1.25rem;
 }
